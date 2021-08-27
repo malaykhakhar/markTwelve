@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Is it triangle?</title>
+    <title>Area of Triangle</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navigation">
       <div class="nav-brand">fun with triangles</div>
       <ul class="list-no-bullet nav-pills">
-        <li class="list-inline-item link-active">
+        <li class="list-inline-item">
           <a href="/index.html" class="link">Is triangle?</a>
         </li>
         <li class="list-inline-item">
@@ -20,22 +20,27 @@
         <li class="list-inline-item">
           <a href="/hypotenuse.html" class="link">Hypotenuse</a>
         </li>
-        <li class="list-inline-item">
+        <li class="list-inline-item link-active">
           <a href="/area.html" class="link">Area of triangle</a>
         </li>
       </ul>
     </nav>
 
     <div class="container">
-      <h1>Angles of triangles</h1>
-      <label for="angle1" class="input-label">Angle1</label>
-      <input type="number" class="input" />
-      <label for="angle2" class="input-label">Angle2</label>
-      <input type="number" class="input" />
-      <label for="angle3" class="input-label">Angle3</label>
-      <input type="number" class="input" />
-
-      <button class="check-button" id="check-btn">Is triangle?</button>
+      <h1>Calculate Area of a triangle</h1>
+      <label for="angle1" class="input-label"
+        >Enter first side of triangle</label
+      >
+      <input type="number" class="input" id="first-side" />
+      <label for="angle2" class="input-label"
+        >Enter second side of triangle</label
+      >
+      <input type="number" class="input" id="second-side" />
+      <label for="angle3" class="input-label"
+        >Enter third side of triangle</label
+      >
+      <input type="number" class="input" id="third-side" />
+      <button class="check-button" id="check-btn">Calculate</button>
       <div class="output"></div>
     </div>
 
@@ -55,5 +60,5 @@
       </ul>
     </footer>
   </body>
-  <script src="is-triangle.js"></script>
+  <script src="area.js"></script>
 </html>

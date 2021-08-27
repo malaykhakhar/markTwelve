@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Dosis&display=swap");
+
+:root {
+  --primary-color: #3b82f6;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 0.5rem;
+}
+
+.nav-brand {
+  font-family: "Courgette", cursive;
+  color: var(--white);
+  font-size: 2rem;
+  margin: 0rem 1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  margin-bottom: 0px;
+  margin: 0.5rem 1rem;
+  font-size: larger;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.list-no-bullet {
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.container {
+  margin: 2rem 0rem 2rem;
+  text-align: center;
+}
+
+.heading {
+  color: var(--primary-color);
+}
+
+.desc {
+  margin: 1rem;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.input-label {
+  margin: 1.5rem 0rem;
+  display: block;
+  font-size: x-large;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.input {
+  outline: white;
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  max-width: 200px;
+}
+
+.check-button {
+  cursor: pointer;
+  margin: 2rem auto;
+  display: block;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: large;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.check-button:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  padding: 0.7rem 1rem;
+}
+
+.output {
+  font-size: 2rem;
+  font-weight: bold;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.question {
+  width: 85%;
+  font-size: 1.4rem;
+  margin: 1rem auto;
+  padding: 1rem 0;
+}
+
+.question-para {
+  margin-bottom: 1rem;
+}
+
+.label {
+  padding: 0rem 1rem;
+}
+
+footer {
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  margin: 6rem auto 0rem;
+}
+
+img,
+li {
+  display: inline;
+  padding: 0.2rem;
+  width: 40px;
+}
+
+.footer-list {
+  margin: 1rem;
+}
