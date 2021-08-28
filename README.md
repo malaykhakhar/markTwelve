@@ -2,10 +2,14 @@
 
 A website which helps you to learn about triangles with 4 fun sections:
 
-1. isTriangle? >(Program to check if its a valid triangle)
-2. Quiz >(Quiz on Triangles)
-3. Calculate Hypotenuse >(Program to calculate hypotenuse)
-4. Area of Triangle >(Program to calculate area of triangle)
+1. isTriangle? 
+>(Program to check if its a valid triangle)
+2. Quiz 
+>(Quiz on Triangles)
+3. Calculate Hypotenuse 
+>(Program to calculate hypotenuse)
+4. Area of Triangle 
+>(Program to calculate area of triangle)
 
 ## technologies used:
 
